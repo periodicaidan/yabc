@@ -1,0 +1,8 @@
+# PDF files generated to proofread the README
+*.pdf
+
+# I didn't install any Node things but NPM works in mysterious ways
+node_modules/
+
+# VS Code things
+.vscode/

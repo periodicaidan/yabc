@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "outFile": "js/app.js",
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "target": "ES6",
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "noFallthroughCasesInSwitch": true
+    },
+
+    "include": [
+        "lib/**/*",
+        "src/**/*"
+    ],
+
+    "exclude": [
+        "node_modules",
+        "wwwroot"
+    ]
+}

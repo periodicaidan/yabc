@@ -1,0 +1,9 @@
+{
+    "PARENT": "game",
+    "SCREEN_WIDTH": 600,
+    "SCREEN_HEIGHT": 400,
+    "GRAVITY": 0,
+    "DEBUG": false,
+    "PADDLE_SPEED": 150,
+    "BALL_SPEED": 150
+}
