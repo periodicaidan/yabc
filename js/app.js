@@ -279,7 +279,7 @@ var App;
                 }).setOrigin(0.5, 0.5);
                 let newGameButton = new App.Ui.Button(this, App.Config.SCREEN_WIDTH / 2, this.layout['newGameButton'], 'New Game', 'blue').on('pointerup', () => this.scene.start('main', { score: 0, level: 1 }), this);
                 let optionsButton = new App.Ui.Button(this, App.Config.SCREEN_WIDTH / 2, this.layout['optionsButton'], 'Options', 'beige').on('pointerup', () => this.scene.start('options'), this);
-                this.add.text(10, App.Config.SCREEN_HEIGHT - 20, 'Copyright (c) 2018 Aidan T. Manning. MIT License.', {
+                this.add.text(10, App.Config.SCREEN_HEIGHT - 20, 'Copyright (c) 2019 Aidan T. Manning. MIT License.', {
                     fontFamily: 'VT323',
                     fontSize: '18px',
                     fill: '#FFF'
