@@ -225,7 +225,7 @@ namespace App.Scenes {
             this.add.text(
                 10,
                 App.Config.SCREEN_HEIGHT - 20,
-                'Copyright (c) 2018 Aidan T. Manning. MIT License.',
+                'Copyright (c) 2019 Aidan T. Manning. MIT License.',
                 {
                     fontFamily: 'VT323',
                     fontSize: '18px',
